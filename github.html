@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8" />
+  <title>GitHub.com</title>
+  <style>
+body{
+background-color:black;
+color:white;
+font-family: Arial}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f2f2f2;
+  color: rgb(92, 38, 38);
+}
+
+.topnav a.active {
+  background-color: #333 ;
+  color: white;
+}
+
+#left {
+   display: flex;
+   position: absolute;
+   left: 0;
+   top: 0; 
+   width: 50%; 
+   margin-top: 20% ;
+   margin-left: 2%;
+   margin-bottom: 40%;
+   margin-right: 50%;
+ 
+   }
+
+#right { 
+   display: flex;
+   position: absolute; 
+   right: 0; 
+   top: 27%; 
+   right: 30%;
+   left: 9%;
+   height: 50%;
+   width: 50%;
+   font-size: 20px;
+   height: 50%;
+   margin-top: 0% ;
+   margin-left: 40%;
+   margin-bottom: 40%;
+   margin-right: 50%;
+   border:  5px solid white;
+   border-radius: 5px;
+   background-color: whitesmoke;
+   color: black;
+  }
+
+  .login{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+   }
+
+   .signUp{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+   }
+
+   #search{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+   }
+
+   #left1{
+  display: flex;
+   position: relative;
+   left: 0;
+   top: 0; 
+   width: 50%; 
+   margin-top: 20% ;
+   margin-left: 2%;
+   margin-bottom: 40%;
+   margin-right: 50%;
+
+   }
+
+  </style>
+		
+
+</head>
+
+<body>
+
+ <div class="topnav">
+  <a class="active" href="#github"><img style="width:30px;height:30px;float:left; text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;" src="https://camo.githubusercontent.com/dc8c9fdd3b286f97cce254e331d026492d55c57e/68747470733a2f2f736c61636b2d66696c6573322e73332d75732d776573742d322e616d617a6f6e6177732e636f6d2f617661746172732f323031372d31322d31392f3238383938313931393432375f66343566303465646439323930326139363835395f3531322e706e67"/>Why GitHub?</a>
+  <a href="#enterprise">Enterprise</a>
+  <a href="#explore">Explore</a>
+  <a href="#marketplace">Marketplace</a>
+  <a href="#pricing">Pricing</a>
+
+  <div><input type="text" id="search" placeholder="Search.."></div>
+
+  <section class="login">
+    <input  style="border: 5px solid white;font-size: 100%;" type="submit" value="Log in">
+  </section>
+  <section class="signUp">
+    <input  style="border: 5px solid white;font-size: 100%;" type="submit" value="Sign Up">
+  </section>
+</div>
+
+
+
+ <div id="left">
+  <h1>Built for developers</h1>
+ </div>
+ <div id="left1">
+  <p>GitHub is a development platform inspired by the way you work. From <a href="https://github.com/open-source">open source</a> to <a href="https://github.com/enterprise">business</a>, you can host and review code, manage projects, and build software alongside 40 million developers.</p>
+ </div>
+ 
+ <div id="right">
+  <form action="submission.html" method="POST">
+   <section class="username">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username">
+   </section>
+        
+   <section class="email">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email">
+   </section> 
+   
+   <section class="password">
+          <label for="password">Password</label>
+          <input type="text" name="password" id="password">
+   </section>
+   
+  <p>Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.<a href="https://help.github.com/en/github/authenticating-to-github/creating-a-strong-password">Learn more.</a></p>
+   
+    <section class="submission">
+          <input type="submit" value="Sign up for GitHub">
+    </section>
+ [Photo]
+<p>By clicking “Sign up for GitHub”, you agree to our <a href="https://help.github.com/en/github/site-policy/github-terms-of-service">Terms of Service</a> and <a href="https://help.github.com/en/github/site-policy/github-privacy-statement">Privacy Statement</a>. We’ll occasionally send you account related emails.</p>
+  
+  </form>
+
+
+ </div>
+
+
+
+ 
+</body>
+</html>

